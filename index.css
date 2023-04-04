@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bank-gothic');
+
+h1{
+    font-family: 'Bank Gothic';
+    color: rgba(255, 98, 50, 0.932);
+    text-decoration: underline;  
+    padding-top: 5px;
+    
+    
+}
+p, a{
+    font-family: 'Bank Gothic';
+    font-size: 20px;
+}
+header{
+    max-width: 100%;
+} 
+.header__logo{
+    box-sizing: content-box;
+    margin-left: 38%;
+    margin-right: auto;
+    
+    
+}
+
+.carrusel{
+    background-image: url("./img/fondo1.jpg");
+    background-size: cover;
+    align-items: center;
+    height: 700px;
+} 
+.imgc{
+    object-fit: cover;
+    
+    
+} 
+
+.carousel-inner{
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 60px;
+    
+
+}  
+.separador{
+    height: 30px;
+    background-color: dimgrey;
+
+}
+
+.fondo2{
+    background-image: url("./img/fondo2.jpg");
+    background-size: cover;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info{
+    margin-left:20px
+}
+.somos{
+    
+    width: 400px;
+    text-align:center;
+}
+.p-contacto{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
