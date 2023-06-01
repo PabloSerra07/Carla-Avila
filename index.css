@@ -88,3 +88,24 @@ a:hover {
 a:active {
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .carrusel {
+            
+            text-align: justify;
+            display: flex;
+            flex-direction: column; 
+            padding: .3em;
+            margin-left: 25%;
+            }
+    }
+
+    @media screen and (max-width: 375px) {
+        .tour {
+                text-align: justify;
+                display: flex;
+                flex-direction: column; 
+                padding: .1em;
+                font-size: .4em;
+                }
+        }                                 
