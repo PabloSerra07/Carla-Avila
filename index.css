@@ -46,8 +46,11 @@ header{
 
 }  
 .separador{
-    height: 30px;
-    background-color: dimgrey;
+    height: 50px;
+    /* background-image: url("./img/wave-haikei.svg"); */
+    color: rgba(255, 98, 50, 0.932);
+    margin-top: 10px;
+    padding-left: 10px;
 
 }
 
@@ -57,6 +60,7 @@ header{
 }
 
 .contacto{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,6 +79,7 @@ header{
     padding: 30px;
     text-decoration: none;
     color: black;
+    
     
 }
 a:hover {
